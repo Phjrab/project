@@ -21,7 +21,10 @@
 - Push button: 3.3V (물리 1번) ↔ 택트 스위치 ↔ BCM GPIO15 (물리 10번)
 
 버튼은 브레드보드 중앙 홈을 가로질러 놓고, 3.3V와 GPIO15를 서로 다른 쪽의 대각선 핀에 연결한다.
+## Level 2 — PWM 제어
 
-
-
-
+| 실습 | 파일 | 내용 | 기록 |
+| --- | --- | --- | --- |
+| 2-1 | `2_1_PWM_LED.py` | PWM으로 LED 밝기 변화 | [사진·영상](level_2/images/2-1/) |
+| 2-1+ | `2_1_plus_PWM_LED_GUI.py` | 시작·정지 GUI로 LED 밝기 변화 | [사진](level_2/images/2-1+/) |
+| 2-2 | `2_2_PWM_Buzzer.py` | PWM 주파수로 도레미파솔라시도 재생 | [사진](level_2/images/2-2/) |
