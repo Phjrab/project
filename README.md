@@ -28,3 +28,4 @@
 | 2-1 | `2_1_PWM_LED.py` | PWM으로 LED 밝기 변화 | [사진·영상](level_2/images/2-1/) |
 | 2-1+ | `2_1_plus_PWM_LED_GUI.py` | 시작·정지 GUI로 LED 밝기 변화 | [사진](level_2/images/2-1+/) |
 | 2-2 | `2_2_PWM_Buzzer.py` | PWM 주파수로 도레미파솔라시도 재생 | [사진](level_2/images/2-2/) |
+| 2-2+ | 2_2_plus_PWM_Buzzer_GUI.py | 음계·개별 음 재생 GUI | [사진](level_2/images/2-2+/) |

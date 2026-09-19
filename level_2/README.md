@@ -18,4 +18,4 @@
 - [PWM LED 밝기 변화 영상 (MP4)](images/2-1/02_pwm_led_brightness.mp4)
 - [2-2 부저 음계 재생 터미널](images/2-2/01_terminal_execution.png)
 - [2-2 부저 모듈 배선](images/2-2/02_buzzer_module_wiring.png)
-
+- [2-2+ 음계 재생 GUI](images/2-2+/01_buzzer_gui.png)
