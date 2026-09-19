@@ -19,3 +19,6 @@
 - [2-2 부저 음계 재생 터미널](images/2-2/01_terminal_execution.png)
 - [2-2 부저 모듈 배선](images/2-2/02_buzzer_module_wiring.png)
 - [2-2+ 음계 재생 GUI](images/2-2+/01_buzzer_gui.png)
+
+실습 사진·영상 목록은 [level_2/images/README.md](images/README.md)에서 확인할 수 있다.
+
