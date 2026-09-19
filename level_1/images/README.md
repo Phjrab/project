@@ -48,3 +48,9 @@
 | --- | --- |
 | 버튼 토글 출력 | ![버튼 LED 토글](1-4/01_terminal_toggle_result.png) |
 | 브레드보드 배선 | ![버튼 LED 배선](1-4/02_breadboard_wiring.png) |
+## 1-4+. 버튼·GUI LED 제어
+
+| 화면 | 기록 |
+| --- | --- |
+| LED 꺼짐 | ![LED GUI 꺼짐](1-4+/01_gui_off.png) |
+| LED 켜짐 | ![LED GUI 켜짐](1-4+/02_gui_on.png) |
