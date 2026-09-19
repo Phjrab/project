@@ -42,3 +42,9 @@
 | --- | --- |
 | GUI 누른 횟수 9회 | ![버튼 횟수 9](1-3+/02_gui_count_09.png) |
 | GUI 누른 횟수 11회 | ![버튼 횟수 11](1-3+/03_gui_count_11.png) |
+## 1-4. 버튼으로 LED ON/OFF
+
+| 화면 | 기록 |
+| --- | --- |
+| 버튼 토글 출력 | ![버튼 LED 토글](1-4/01_terminal_toggle_result.png) |
+| 브레드보드 배선 | ![버튼 LED 배선](1-4/02_breadboard_wiring.png) |
