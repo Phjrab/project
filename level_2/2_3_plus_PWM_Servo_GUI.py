@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import tkinter as tk
 import threading
 
-SERVO_PIN = 14 # 물리 8번
+SERVO_PIN = 14
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -16,10 +16,10 @@ class ServoControlApp:
         self.master = master
         master.title("서보모터 제어")
 
-        # 각도 버튼 프레임
+
         self.button_frame = tk.Frame(master)
         self.button_frame.pack(pady=10)
-        # 0도, 90도, 180도 버튼
+
         self.btn_0 = tk.Button(self.button_frame, text="0도", command=lambda: self.move_servo(2.5))
         self.btn_0.pack(side=tk.LEFT, padx=5)
 
@@ -28,11 +28,11 @@ class ServoControlApp:
 
         self.btn_180 = tk.Button(self.button_frame, text="180도", command=lambda: self.move_servo(12.5))
         self.btn_180.pack(side=tk.LEFT, padx=5)
-        # 슬라이더
+
         self.angle_slider = tk.Scale(master, from_=0, to=180, orient=tk.HORIZONTAL, command=self.slider_changed, length=300)
         self.angle_slider.pack(pady=10)
 
-        # 상태레이블
+
         self.status_label = tk.Label(master, text="대기 중")
         self.status_label.pack(pady=10)
 

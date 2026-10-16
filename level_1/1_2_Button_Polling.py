@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-BUTTON_PIN = 15  # BCM GPIO15, physical pin 10
+BUTTON_PIN = 15
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -13,7 +13,7 @@ try:
     while True:
         if GPIO.input(BUTTON_PIN) == GPIO.HIGH:
             print("Button pushed!")
-            time.sleep(0.1)  # polling delay and simple debounce
+            time.sleep(0.1)
 except KeyboardInterrupt:
     pass
 finally:

@@ -27,10 +27,20 @@
 | --- | --- | --- | --- |
 | 2-1 | `2_1_PWM_LED.py` | PWM으로 LED 밝기 변화 | [사진·영상](level_2/images/2-1/) |
 | 2-1+ | `2_1_plus_PWM_LED_GUI.py` | 시작·정지 GUI로 LED 밝기 변화 | [사진](level_2/images/2-1+/) |
-| 2-2 | `2_2_PWM_Buzzer.py` | PWM 주파수로 도레미파솔라시도 재생 | [사진](level_2/images/2-2/) |
+| 2-2 | `2_2_PWM_Buzzer.py` | PWM 주파수로 무작위 음계 반복 재생 | [사진](level_2/images/2-2/) |
 | 2-2+ | 2_2_plus_PWM_Buzzer_GUI.py | 음계·개별 음 재생 GUI | [사진](level_2/images/2-2+/) |
 | 2-3 | [2_3_PWM_Servo.py](level_2/2_3_PWM_Servo.py) | 서보모터 90° → 180° → 0° 반복, 각 위치에서 1초 대기 | [배선 사진](level_2/images/2-3/) |
 | 2-3+ | [2_3_plus_PWM_Servo_GUI.py](level_2/2_3_plus_PWM_Servo_GUI.py) | 0°·90°·180° 버튼과 각도 슬라이더 GUI | [GUI 사진](level_2/images/2-3+/) |
 | 2-3+ ver2 | [2_3_plus_PWM_Servo_GUI_ver2.py](level_2/2_3_plus_PWM_Servo_GUI_ver2.py) | 시계·반시계 방향 버튼을 누르는 동안 5°씩 변경 | 실행 확인 전 |
 
 2-3과 2-3+는 8주차 강의자료 코드를 바탕으로 신호 핀을 BCM GPIO14(물리 8번)로 변경했다. 서보모터 배선과 실행 방법은 [Level 2 README](level_2/README.md)에서 확인할 수 있다.
+
+## Level 3 — 초음파 거리 측정
+
+| 실습 | 파일 | 내용 | 기록 |
+| --- | --- | --- | --- |
+| 3.1 | [3_1_PWM_UltraSound.py](level_3/3_1_PWM_UltraSound.py) | 초음파 거리 측정 터미널 출력 | [사진](level_3/images/3-1/) |
+| 3.1+ | [3_1_plus_PWM_Ultrasound_GUI.py](level_3/3_1_plus_PWM_Ultrasound_GUI.py) | 측정 시작·중지 GUI, ECHO 시간 제한과 중지 시 멈춤 수정 | [사진](level_3/images/3-1+/) |
+| 3.2 | [3_2_PWM_Buzzer_Ultrasonic.py](level_3/3_2_PWM_Buzzer_Ultrasonic.py) | 50cm 이하에서 부저 음계 재생 | [사진](level_3/images/3-2/) |
+
+배선과 실행 방법은 [Level 3 README](level_3/README.md)를 참고한다.

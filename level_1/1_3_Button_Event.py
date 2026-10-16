@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-BUTTON_PIN = 15  # BCM GPIO15, physical pin 10
+BUTTON_PIN = 15
 
 
 def button_pressed_callback(channel):
@@ -12,7 +12,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(BUTTON_PIN, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
-# LOW → HIGH로 바뀌는 순간에만 콜백 함수를 실행한다.
+
 GPIO.add_event_detect(
     BUTTON_PIN,
     GPIO.RISING,

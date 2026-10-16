@@ -9,7 +9,7 @@ class ButtonMonitorApp:
         self.master = master
         master.title("Button Monitor")
 
-        self.button_pin = 15  # BCM GPIO15, physical pin 10
+        self.button_pin = 15
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(self.button_pin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)

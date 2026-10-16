@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import tkinter as tk
 
-BUTTON_PIN = 15  # BCM GPIO15, physical pin 10
+BUTTON_PIN = 15
 
 
 class PushButtonApp:
@@ -30,7 +30,7 @@ class PushButtonApp:
     def monitor_button(self):
         current_state = GPIO.input(BUTTON_PIN)
 
-        # LOW → HIGH가 되는 버튼 누름 순간만 한 번 카운트한다.
+
         if current_state == GPIO.HIGH and self.last_state == GPIO.LOW:
             self.button_count += 1
             self.label.config(text="버튼 상태: 눌림")

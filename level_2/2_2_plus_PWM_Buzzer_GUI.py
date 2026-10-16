@@ -10,7 +10,7 @@ NOTE_DURATION = 0.5
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(BUZZER_PIN, GPIO.OUT)
+GPIO.setup(BUZZER_PIN, GPIO.OUT, initial=GPIO.LOW)
 
 
 class ScalePlayerApp:

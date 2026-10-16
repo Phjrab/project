@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import time
+import random
 
 BUZZER_PIN = 12
 PWM_FREQUENCY = 100
@@ -16,8 +17,11 @@ try:
     pwm = GPIO.PWM(BUZZER_PIN, PWM_FREQUENCY)
     pwm.start(10)
 
-    print("도레미파솔라시도를 재생합니다. 종료: Ctrl+C")
-    for note, frequency in zip(NOTE_NAMES, SCALE):
+    print("무작위 음계를 재생합니다. 종료: Ctrl+C")
+    while True:
+        index = random.randrange(len(SCALE))
+        note = NOTE_NAMES[index]
+        frequency = SCALE[index]
         print(f"{note}: {frequency}Hz")
         pwm.ChangeFrequency(frequency)
         time.sleep(0.5)

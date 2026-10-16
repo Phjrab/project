@@ -9,7 +9,7 @@ class LEDControlApp:
         self.master = master
         master.title("LED Control")
 
-        # BCM GPIO4 = 물리 핀 7
+
         self.led_pin = 4
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BCM)

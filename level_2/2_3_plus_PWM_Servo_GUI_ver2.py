@@ -3,7 +3,7 @@ import tkinter as tk
 import threading
 import time
 
-SERVO_PIN = 14 # 물리 8번
+SERVO_PIN = 14
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -20,10 +20,10 @@ class ServoControlApp:
         self.is_rotating = False
         self.current_angle = 0
 
-        # 회전 버튼 프레임
+
         self.button_frame = tk.Frame(master)
         self.button_frame.pack(pady=10)
-        # 시계 방향, 반시계방향 버튼
+
         self.btn_cw = tk.Button(self.button_frame, text="시계 방향")
         self.btn_cw.pack(side=tk.LEFT, padx=5)
         self.btn_cw.bind('<ButtonPress>', lambda e: self.start_rotation('cw'))
@@ -34,7 +34,7 @@ class ServoControlApp:
         self.btn_ccw.bind('<ButtonPress>', lambda e: self.start_rotation('ccw'))
         self.btn_ccw.bind('<ButtonRelease>', self.stop_rotation)
 
-        # 상태 레이블
+
         self.status_label = tk.Label(master, text="대기 중")
         self.status_label.pack(pady=10)
 
@@ -55,7 +55,7 @@ class ServoControlApp:
             duty = self.angle_to_duty(self.current_angle)
             servo.ChangeDutyCycle(duty)
             self.master.after(0, self.update_status)
-            time.sleep(0.1) # 회전 속도 조절
+            time.sleep(0.1)
 
     def angle_to_duty(self, angle):
         return (angle / 18) + 2.5
