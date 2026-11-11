@@ -44,3 +44,9 @@
 | 3.2 | [3_2_PWM_Buzzer_Ultrasonic.py](level_3/3_2_PWM_Buzzer_Ultrasonic.py) | 50cm 이하에서 부저 음계 재생 | [사진](level_3/images/3-2/) |
 
 배선과 실행 방법은 [Level 3 README](level_3/README.md)를 참고한다.
+
+## Level 5 — SPI 아날로그 입력
+
+| 실습 | 파일 | 내용 | 기록 |
+| --- | --- | --- | --- |
+| 5.3 | [5_3_SPI_MCP3008_Joystick.py](level_5/5_3_SPI_MCP3008_Joystick.py) | MCP3008 CH1·CH2·CH0에서 조이스틱 X·Y·SW 읽기 | [실행 화면·배선·코드 캡처](level_5/images/5-3/) |
