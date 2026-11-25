@@ -105,3 +105,25 @@ done
 ### 동영상 촬영
 
 [picam.py](camera/picam.py)를 실행하고 파일 이름을 입력하면 H.264 영상이 `camera/videos/`에 저장된다.
+
+## 실습 사진
+
+| 실습 | 사진 |
+| --- | --- |
+| 1 | [LED 기본](level_1/images/1/) |
+| 1-1 | [LED 점멸 간격](level_1/images/1-1/) |
+| 1-2 | [버튼 폴링](level_1/images/1-2/) |
+| 1-4 | [버튼으로 LED 전환](level_1/images/1-4/) |
+| 2-1 / 2-1+ | [PWM LED](level_2/images/2-1/) |
+| 2-2 | [부저](level_2/images/2-2/) |
+| 2-3 | [서보 모터](level_2/images/2-3/) |
+| 3.1 | [초음파 거리 측정](level_3/images/3-1/) |
+| 3.2 / 3.2+ | [초음파 센서와 부저](level_3/images/3-2/) |
+| 4.1 / 4.1+ | [PIR 배선 및 LED](level_4/images/4-1/) |
+| 5.1 / 5.1+ | [가변저항](level_5/images/5-1/) |
+| 5.2 / 5.2+ | [조도 센서](level_5/images/5-2/) |
+| 5.3 / 5.3+ | [조이스틱](level_5/images/5-3/) |
+| 6.1 / 6.2 | [스텝 모터 배선](level_6/images/6/) |
+| 6+ | [스텝 모터 GUI 실습 장비](level_6/images/6-plus/) |
+| 7.1 | [DHT11 배선](level_7/images/7-1/) |
+| 8 | [주소로 LED 제어](level_8/images/led-url/) · [웹 버튼으로 LED 제어](level_8/images/led-web/) |
